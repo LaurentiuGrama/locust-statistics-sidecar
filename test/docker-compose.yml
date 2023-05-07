@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   standalone:
-    image: locustio/locust:1.0.3
+    image: locustio/locust:2.5.1
     ports:
      - "8089:8089"
     container_name: standalone
